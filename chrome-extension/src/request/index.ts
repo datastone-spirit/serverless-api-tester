@@ -1,7 +1,7 @@
 /*
  * @Author: mulingyuer
  * @Date: 2024-10-29 17:26:50
- * @LastEditTime: 2024-11-05 09:24:50
+ * @LastEditTime: 2024-11-08 17:52:43
  * @LastEditors: mulingyuer
  * @Description: 请求
  * @FilePath: \chrome-extension\src\request\index.ts
@@ -49,10 +49,3 @@ export async function request(options: RequestOptions): Promise<unknown> {
 		return Promise.reject(error as Error);
 	}
 }
-
-// async function test() {
-// 	const a = await request({
-// 		url: "",
-// 		responseType: ""
-// 	});
-// }

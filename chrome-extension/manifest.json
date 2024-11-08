@@ -22,7 +22,7 @@
 	],
 	"web_accessible_resources": [
 		{
-			"resources": ["pages/image-preview/index.html"],
+			"resources": ["src/image-preview/index.html"],
 			"matches": ["<all_urls>"]
 		}
 	],

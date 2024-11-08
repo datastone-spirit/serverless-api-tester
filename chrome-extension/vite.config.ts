@@ -65,7 +65,8 @@ export default defineConfig(() => {
 			outDir: "dist",
 			rollupOptions: {
 				input: {
-					"side-panel": resolve(__dirname, "./src/side-panel/index.html")
+					"side-panel": resolve(__dirname, "./src/side-panel/index.html"),
+					"image-preview": resolve(__dirname, "./src/image-preview/index.html")
 				},
 				output: {
 					assetFileNames: "assets/[name]-[hash].[ext]", // 静态资源
